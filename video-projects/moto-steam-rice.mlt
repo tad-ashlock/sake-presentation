@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="en_US.UTF-8" version="6.5.0" title="Shotcut version 17.04.02" producer="main bin">
+  <profile description="automatic" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="1920" display_aspect_den="1080" frame_rate_num="60" frame_rate_den="1" colorspace="709"/>
+  <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="00:01:25.083">
+    <property name="length">00:01:25.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/taashlo/storage/Videos/Sake Video/00007.webm</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">345761d3ea7cb1719fca801aedd20367</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="00:01:37.117">
+    <property name="length">00:01:37.133</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/taashlo/storage/Videos/Sake Video/00008.webm</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">f9eff571fa0ddc74869c9a970aa59e1e</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" title="Anonymous Submission" in="00:00:00.000" out="00:05:40.867">
+    <property name="length">00:05:40.883</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/taashlo/storage/Videos/Sake Video/00009.webm</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">c09a1a36c76de0251ad6cbdda8b93a02</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="main bin" title="Shotcut version 17.04.02">
+    <property name="xml_retain">1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:01:25.083"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:01:37.117"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:05:40.867"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:01:35.183">
+    <property name="length">00:01:35.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">black</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:01:35.183"/>
+  </playlist>
+  <producer id="producer3" title="Anonymous Submission" in="00:00:00.000" out="00:01:25.083">
+    <property name="length">00:01:25.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/taashlo/storage/Videos/Sake Video/00007.webm</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">345761d3ea7cb1719fca801aedd20367</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">00007.webm</property>
+    <property name="shotcut:detail">/home/taashlo/storage/Videos/Sake Video/00007.webm</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <producer id="producer4" title="Anonymous Submission" in="00:00:00.000" out="00:01:37.117">
+    <property name="length">00:01:37.133</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/taashlo/storage/Videos/Sake Video/00008.webm</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">f9eff571fa0ddc74869c9a970aa59e1e</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">00008.webm</property>
+    <property name="shotcut:detail">/home/taashlo/storage/Videos/Sake Video/00008.webm</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <tractor id="tractor0" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.983">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer3" in="00:00:52.317" out="00:00:55.300"/>
+    <track producer="producer4" in="00:00:00.000" out="00:00:02.983"/>
+    <transition id="transition0" out="00:00:02.983">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition1" out="00:00:02.983">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer5" title="Anonymous Submission" in="00:00:00.000" out="00:01:37.117">
+    <property name="length">00:01:37.133</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/taashlo/storage/Videos/Sake Video/00008.webm</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">f9eff571fa0ddc74869c9a970aa59e1e</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">00008.webm</property>
+    <property name="shotcut:detail">/home/taashlo/storage/Videos/Sake Video/00008.webm</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <tractor id="tractor1" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.983">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer4" in="00:00:08.183" out="00:00:11.167"/>
+    <track producer="producer5" in="00:00:32.350" out="00:00:35.333"/>
+    <transition id="transition2" out="00:00:02.983">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition3" out="00:00:02.983">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer6" title="Anonymous Submission" in="00:00:00.000" out="00:01:37.117">
+    <property name="length">00:01:37.133</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/taashlo/storage/Videos/Sake Video/00008.webm</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">f9eff571fa0ddc74869c9a970aa59e1e</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">00008.webm</property>
+    <property name="shotcut:detail">/home/taashlo/storage/Videos/Sake Video/00008.webm</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <tractor id="tractor2" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.983">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer5" in="00:00:38.367" out="00:00:41.350"/>
+    <track producer="producer6" in="00:00:56.883" out="00:00:59.867"/>
+    <transition id="transition4" out="00:00:02.983">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition5" out="00:00:02.983">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer7" title="Anonymous Submission" in="00:00:00.000" out="00:01:37.117">
+    <property name="length">00:01:37.133</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/taashlo/storage/Videos/Sake Video/00008.webm</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">f9eff571fa0ddc74869c9a970aa59e1e</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">00008.webm</property>
+    <property name="shotcut:detail">/home/taashlo/storage/Videos/Sake Video/00008.webm</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <tractor id="tractor3" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.983">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer6" in="00:01:08.117" out="00:01:11.100"/>
+    <track producer="producer7" in="00:01:22.900" out="00:01:25.883"/>
+    <transition id="transition6" out="00:00:02.983">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition7" out="00:00:02.983">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer8" title="Anonymous Submission" in="00:00:00.000" out="00:05:40.867">
+    <property name="length">00:05:40.883</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/taashlo/storage/Videos/Sake Video/00009.webm</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">c09a1a36c76de0251ad6cbdda8b93a02</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">00009.webm</property>
+    <property name="shotcut:detail">/home/taashlo/storage/Videos/Sake Video/00009.webm</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <tractor id="tractor4" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.983">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer7" in="00:01:29.033" out="00:01:32.017"/>
+    <track producer="producer8" in="00:01:52.200" out="00:01:55.183"/>
+    <transition id="transition8" out="00:00:02.983">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition9" out="00:00:02.983">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer9" title="Anonymous Submission" in="00:00:00.000" out="00:05:40.867">
+    <property name="length">00:05:40.883</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/taashlo/storage/Videos/Sake Video/00009.webm</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">c09a1a36c76de0251ad6cbdda8b93a02</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">00009.webm</property>
+    <property name="shotcut:detail">/home/taashlo/storage/Videos/Sake Video/00009.webm</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <tractor id="tractor5" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.983">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer8" in="00:02:00.033" out="00:02:03.017"/>
+    <track producer="producer9" in="00:03:59.483" out="00:04:02.467"/>
+    <transition id="transition10" out="00:00:02.983">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition11" out="00:00:02.983">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer10" title="Anonymous Submission" in="00:00:00.000" out="00:05:40.867">
+    <property name="length">00:05:40.883</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/taashlo/storage/Videos/Sake Video/00009.webm</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">c09a1a36c76de0251ad6cbdda8b93a02</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">00009.webm</property>
+    <property name="shotcut:detail">/home/taashlo/storage/Videos/Sake Video/00009.webm</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <tractor id="tractor6" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.983">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer9" in="00:04:09.600" out="00:04:12.583"/>
+    <track producer="producer10" in="00:04:23.300" out="00:04:26.283"/>
+    <transition id="transition12" out="00:00:02.983">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition13" out="00:00:02.983">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer11" title="Anonymous Submission" in="00:00:00.000" out="00:05:40.867">
+    <property name="length">00:05:40.883</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/taashlo/storage/Videos/Sake Video/00009.webm</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">c09a1a36c76de0251ad6cbdda8b93a02</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">00009.webm</property>
+    <property name="shotcut:detail">/home/taashlo/storage/Videos/Sake Video/00009.webm</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <tractor id="tractor7" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.983">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer10" in="00:04:36.967" out="00:04:39.950"/>
+    <track producer="producer11" in="00:04:53.283" out="00:04:56.267"/>
+    <transition id="transition14" out="00:00:02.983">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition15" out="00:00:02.983">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer12" title="Anonymous Submission" in="00:00:00.000" out="00:05:40.867">
+    <property name="length">00:05:40.883</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/taashlo/storage/Videos/Sake Video/00009.webm</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">c09a1a36c76de0251ad6cbdda8b93a02</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">00009.webm</property>
+    <property name="shotcut:detail">/home/taashlo/storage/Videos/Sake Video/00009.webm</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <tractor id="tractor8" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.983">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer11" in="00:05:12.400" out="00:05:15.383"/>
+    <track producer="producer12" in="00:05:21.867" out="00:05:24.850"/>
+    <transition id="transition16" out="00:00:02.983">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition17" out="00:00:02.983">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer3" in="00:00:47.417" out="00:00:52.300"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:02.983"/>
+    <entry producer="producer4" in="00:00:03.000" out="00:00:08.167"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:02.983"/>
+    <entry producer="producer5" in="00:00:35.350" out="00:00:38.350"/>
+    <entry producer="tractor2" in="00:00:00.000" out="00:00:02.983"/>
+    <entry producer="producer6" in="00:00:59.883" out="00:01:08.100"/>
+    <entry producer="tractor3" in="00:00:00.000" out="00:00:02.983"/>
+    <entry producer="producer7" in="00:01:25.900" out="00:01:29.017"/>
+    <entry producer="tractor4" in="00:00:00.000" out="00:00:02.983"/>
+    <entry producer="producer8" in="00:01:55.200" out="00:02:00.017"/>
+    <entry producer="tractor5" in="00:00:00.000" out="00:00:02.983"/>
+    <entry producer="producer9" in="00:04:02.483" out="00:04:09.583"/>
+    <entry producer="tractor6" in="00:00:00.000" out="00:00:02.983"/>
+    <entry producer="producer10" in="00:04:26.300" out="00:04:36.950"/>
+    <entry producer="tractor7" in="00:00:00.000" out="00:00:02.983"/>
+    <entry producer="producer11" in="00:04:56.283" out="00:05:12.383"/>
+    <entry producer="tractor8" in="00:00:00.000" out="00:00:02.983"/>
+    <entry producer="producer12" in="00:05:24.867" out="00:05:29.850"/>
+  </playlist>
+  <tractor id="tractor9" title="Shotcut version 17.04.02" global_feed="1" in="00:00:00.000" out="00:01:35.183">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">0.135</property>
+    <track producer="background"/>
+    <track producer="playlist0" hide="audio"/>
+    <transition id="transition18">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition19">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+  </tractor>
+</mlt>

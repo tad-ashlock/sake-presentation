@@ -1,0 +1,11 @@
+img.float-left {
+float:left;
+}
+
+img.float-right {
+float:right;
+}
+
+.large-font {
+font-size: 2em;
+}

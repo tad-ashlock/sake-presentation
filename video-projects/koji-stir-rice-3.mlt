@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="en_US.UTF-8" version="6.5.0" title="Shotcut version 17.04.02" producer="main bin">
+  <profile description="automatic" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="1920" display_aspect_den="1080" frame_rate_num="60" frame_rate_den="1" colorspace="709"/>
+  <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="00:00:50.083">
+    <property name="length">00:00:50.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/taashlo/storage/Videos/Sake Video/00022.webm</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">a74a460de0f9646c80fe75bdb8953d6b</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">00022.webm</property>
+    <property name="shotcut:detail">/home/taashlo/storage/Videos/Sake Video/00022.webm</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="main bin" title="Shotcut version 17.04.02">
+    <property name="xml_retain">1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:50.083"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:27.000">
+    <property name="length">00:00:27.017</property>
+    <property name="eof">pause</property>
+    <property name="resource">black</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:27.000"/>
+  </playlist>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="00:00:50.083">
+    <property name="length">00:00:50.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/taashlo/storage/Videos/Sake Video/00022.webm</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">a74a460de0f9646c80fe75bdb8953d6b</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">00022.webm</property>
+    <property name="shotcut:detail">/home/taashlo/storage/Videos/Sake Video/00022.webm</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" title="Anonymous Submission" in="00:00:00.000" out="00:00:50.083">
+    <property name="length">00:00:50.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/taashlo/storage/Videos/Sake Video/00022.webm</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">a74a460de0f9646c80fe75bdb8953d6b</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">00022.webm</property>
+    <property name="shotcut:detail">/home/taashlo/storage/Videos/Sake Video/00022.webm</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor0" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:02.917">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer1" in="00:00:27.317" out="00:00:30.233"/>
+    <track producer="producer2" in="00:00:35.967" out="00:00:38.883"/>
+    <transition id="transition0" out="00:00:02.917">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition1" out="00:00:02.917">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer1" in="00:00:06.567" out="00:00:27.300"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:02.917"/>
+    <entry producer="producer2" in="00:00:38.900" out="00:00:42.217"/>
+  </playlist>
+  <tractor id="tractor1" title="Shotcut version 17.04.02" global_feed="1" in="00:00:00.000" out="00:00:27.000">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">0.306296</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+  </tractor>
+</mlt>
