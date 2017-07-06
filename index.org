@@ -836,6 +836,14 @@ Straining Bag
 
 #+REVEAL_HTML: <video data-autoplay src="shibori.webm"></video>
 
+* Custom Handcrafted Jewelry By:
+
+#+ATTR_HTML: :style font-size:200%
+Danny Wade
+
+#+ATTR_HTML: :height 80%, :width 80%
+[[./jewelry.png]]
+
 * Racking #1, #2, and #3
 
 #+BEGIN_NOTES
@@ -885,16 +893,6 @@ Let the sake rest for about 3 weeks
 
 #+REVEAL_HTML: <video data-autoplay src="pasteurizing-bottles.webm"></video>
 
-* Ready to Drink!
-
-#+BEGIN_NOTES
-- At this point, the sake doesn't need any more aging.
-- In fact, sake doesn't generally age well.  Drink within one year.
-- Yellow color is authentic: undiluted and unfiltered
-#+END_NOTES
-
-[[./bottles-final.jpg]]
-
 * Alcohol Percentage
 
 #+BEGIN_NOTES
@@ -915,6 +913,19 @@ How to Measure ABV?
 
 #+ATTR_REVEAL: :frag fade-up
 (from Rogerson & Symington (2006))
+
+* Ready to Drink!
+
+#+BEGIN_NOTES
+- At this point, the sake doesn't need any more aging.
+- In fact, sake doesn't generally age well.  Drink within one year.
+- Yellow color is authentic: undiluted and unfiltered
+- Special Thanks
+  - Ed Otero: nakazoe
+  - Jef Duncan: tomezoe and shibori
+#+END_NOTES
+
+[[./bottles-final.jpg]]
 
 # * Koji
 #
@@ -1022,14 +1033,6 @@ How to Measure ABV?
 #   - 12.5%, 12.5%, 25%, 50% of all ingredients
 # - use anti-foam drops to control foaming
 # - use a mix-stir before shibori to break up rice kernels
-
-* Custom Handcrafted Jewelry By:
-
-#+ATTR_HTML: :style font-size:200%
-Danny Wade
-
-#+ATTR_HTML: :height 80%, :width 80%
-[[./jewelry.png]]
 
 * Questions?
 
