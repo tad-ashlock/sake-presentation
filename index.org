@@ -20,13 +20,8 @@
 #+REVEAL_TITLE_SLIDE_BACKGROUND: ./dukes-of-ale-logo.png
 #+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE: 50%
 
-# TODO: create handouts
-# - process (step-by-step) with tips
-# - references
-# - sources
-# TODO: Add a special thanks section
-# - Ed Ortiz -- Nakazoe
-# - Jef Duncan -- Tomezoe and Shibori
+# NOTE: Videos: 1024x576, 24 fps, webm-vp9
+
 # TODO: adjust size of all images so scaling isn't necessary
 
 #+BEGIN_NOTES
@@ -102,9 +97,6 @@ Koji --- 麹
 * Ingredients: Rice
 
 #+BEGIN_NOTES
-- Rice needs to be milled, or polished, for high quality sake
-  - at least 70%, 60% is much better, 50% is considered best
-
 - There are strains of rice bred specifically for sake (sakamai)
   - isn't used for eating, it's not very nutritious.
     - less protein, less fat
@@ -127,6 +119,8 @@ Kome
 * Ingredients: Rice
 
 #+BEGIN_NOTES
+- Rice needs to be milled, or polished, for high quality sake
+  - at least 70%, 60% is much better, 50% is considered best
 - Milled (polished) to remove outer layers of the grain
   - fiber
   - protein
