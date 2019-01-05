@@ -20,6 +20,8 @@
 #+REVEAL_TITLE_SLIDE_BACKGROUND: ./dukes-of-ale-logo.png
 #+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE: 50%
 
+# NOTE: to generate index.html within emacs: load-library ox-reveal, C-c C-e R R
+
 # NOTE: Videos: 1024x576, 24 fps, webm-vp9
 
 # TODO: adjust size of all images so scaling isn't necessary
